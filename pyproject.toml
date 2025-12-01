@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "aoc-2025"
+version = "0.1.0"
+description = ""
+authors = ["Matt McHugh <mchughmk@gmail.com>"]
+
+packages = [
+    { include = "day1" },
+]
+
+[tool.poetry.scripts]
+day1 = "day1.day1:main"
+
+[tool.poetry.dependencies]
+python = ">=3.14,<4.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^9.0.1"
+black = "^25.11.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

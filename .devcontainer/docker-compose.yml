@@ -1,0 +1,5 @@
+services:
+  vscode:
+    image: mcr.microsoft.com/devcontainers/python
+    volumes:
+      - ..:/workspace:cached
