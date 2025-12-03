@@ -7,11 +7,13 @@ authors = ["Matt McHugh <mchughmk@gmail.com>"]
 packages = [
     { include = "day1" },
     { include = "day2" },
+    { include = "day3" },
 ]
 
 [tool.poetry.scripts]
 day1 = "day1.day1:main"
 day2 = "day2.day2:main"
+day3 = "day3.day3:main"
 
 [tool.poetry.dependencies]
 python = ">=3.14,<4.0.0"
