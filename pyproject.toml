@@ -12,6 +12,7 @@ packages = [
     { include = "day5" },
     { include = "day6" },
     { include = "day7" },
+    { include = "day8" },
 ]
 
 [tool.poetry.scripts]
@@ -22,6 +23,7 @@ day4 = "day4.day4:main"
 day5 = "day5.day5:main"
 day6 = "day6.day6:main"
 day7 = "day7.day7:main"
+day8 = "day8.day8:main"
 
 [tool.poetry.dependencies]
 piso = ">=1.2,<2.0"
