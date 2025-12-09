@@ -13,6 +13,7 @@ packages = [
     { include = "day6" },
     { include = "day7" },
     { include = "day8" },
+    { include = "day9" },
 ]
 
 [tool.poetry.scripts]
@@ -24,12 +25,14 @@ day5 = "day5.day5:main"
 day6 = "day6.day6:main"
 day7 = "day7.day7:main"
 day8 = "day8.day8:main"
+day9 = "day9.day9:main"
 
 [tool.poetry.dependencies]
 piso = ">=1.2,<2.0"
 python = ">=3.14,<4.0.0"
 numpy = ">=2.3.5,<3.0"
 pandas = ">=2.3.3,<3.0"
+shapely = ">=2.1.2,<3.0"
 treelib = ">=1.8.0,<2.0"
 
 
